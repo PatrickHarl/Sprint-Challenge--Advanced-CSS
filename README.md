@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive uses specific breakpoints to style for different screens. Responsive uses breakpoints as well but is also adaptable to in screen size in between because of the use of responsive units such as rems and %;
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means the site was built to work on mobile and is being scaled up using @media queries with min-width. Desktop first means it is being designed for desktop screens and is being scaled down for mobile using @media queries with max-width.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It makes rems a 1 to 10 ratio to pixels. It simplifies the math needed to properly use rems.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Its code that helps you handle CSS development more cleanly and efficiently that is then compiled down to generic / standard CSS that the browser can read.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Escapes are really nice to use. Parametric mixins are probably the hardest to fully grasp.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
