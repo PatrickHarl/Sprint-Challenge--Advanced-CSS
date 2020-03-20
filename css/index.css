@@ -200,6 +200,21 @@ p {
   font-size: 1.6rem;
   font-weight: bold;
 }
+.main-nav-wrapper .nav-area .nav-links a:hover {
+  animation-name: coloranim;
+  animation-duration: 2s;
+}
+@keyframes coloranim {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: cyan;
+  }
+  100% {
+    background-color: white;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;

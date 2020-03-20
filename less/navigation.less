@@ -32,7 +32,19 @@
     
             a{
                 .a-links();
+            
+                &:hover{
+                    animation-name:coloranim;
+                    animation-duration:2s;
+                }
             }
+
         }
     }
+}
+
+@keyframes coloranim {
+    0% {background-color:white;}
+    50% {background-color:cyan;}
+    100% {background-color:white;}
 }
